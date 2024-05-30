@@ -2,8 +2,8 @@ import re
 import sys
 sys.path.append('./depends')
 import spacy
-import preprocess as pp
-from postprocessing import DataFormatter
+import NER_Preprocess as pp
+from NER_Postprocess import DataFormatter
 
 dft = DataFormatter()
 
