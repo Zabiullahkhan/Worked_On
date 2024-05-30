@@ -1,0 +1,33 @@
+SPACY_MODEL_PATH = "/home/wipro/NLP_ENV/lib/python3.10/site-packages/en_core_web_trf/en_core_web_trf-3.6.1"
+
+python -m download en_core_web_trf
+
+SPACY_FOLDER_PATH = "/home/wipro/NLP_RnD/PB_ENTITY
+
+TO CREATE A CONFIG FILE GO TO "https://spacy.io/usage/training" THEN CREATE A BASE_CONFIG FILE AFTER DOWNLOADING PUT THIS FILE WITH MODELS CONFIG FILE NAMED "CONFIG.CFG" AT MODEL PATH
+
+EXECUTE THE BELOW COMMOND AT SPACY_MODEL_PATH
+SPACY_CONFIGURATION_FILES_FIILUP = "python -m spacy init fill-config base_config.cfg config.cfg"
+
+EXCECUTE THE BELOW TRAINING COMMOND AT SPACY_FOLDER_PATH
+SPACY_TRAINING_COMMOND = " python -m spacy train /home/wipro/NLP_ENV/lib/python3.10/site-packages/en_core_web_trf/en_core_web_trf-3.5.0/config.cfg --gpu-id 0 --output ./output --paths.train ./Train_data_1400000.spacy --paths.dev ./Dev_data_330000.spacy 2>&1 | tee SpaCy_Trf_11_07_2023_log_file.txt "
+
+SCP--->>>> SECURE COPY PROTOCOL
+scp -r ./Training_data_for_testing_purpose_68_cat_63510_07_05_24.csv arunav@10.100.118.83:/home/arunav/NER_GPT-2
+
+7_ZIP_COMMAND:- "7z a -pYOUR_PASSWORD -r archive.7z /path/to/folder"
+ZIP_COMMAND:- "zip -r after_zip_filename.zip folder_name/"
+NEW_ADDED CONLL_DATA :- 1 TO 145083
+
+jupyter-lab --ip 10.100.118.98  --port 8888
+
+Jupyter_theme_list
+   chesterish
+   grade3
+   gruvboxd
+   gruvboxl
+   monokai
+   oceans16
+   onedork
+   solarizedd
+   solarizedl
